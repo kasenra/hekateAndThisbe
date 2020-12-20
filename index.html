@@ -11,7 +11,9 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="Hekate And Thisbe" startnode="1" creator="Twine" creator-version="2.3.8" ifid="F39F7FF2-16EB-44C8-AE50-A7A59DA5D707" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar {
+<tw-storydata name="Hekate And Thisbe" startnode="1" creator="Twine" creator-version="2.3.8" ifid="F39F7FF2-16EB-44C8-AE50-A7A59DA5D707" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Indie+Flower&family=Kavivanar&family=Marck+Script&display=swap');
+
+tw-sidebar {
     display: none;
 }
 tw-story {
@@ -132,9 +134,10 @@ $Hekate[&quot;Just... just a long night...&quot;]
 
 She lingers beside you for a moment before excusing herself... 
 
-[[And you&#39;re alone yet again.-&gt;talkingWithAndromedaBeforeTheNextCall]]</tw-passagedata><tw-passagedata pid="2" name="voicing" tags="startup" position="0,400" size="100,100">(set: $Hekate to (background: #36368A))
-(set: $Thisbe to (background: #368A36))
-(set: $Androm to (background: #8D358D))</tw-passagedata><tw-passagedata pid="3" name="talkingWithAndromedaBeforeTheNextCall" tags="" position="100,100" size="100,100">
+[[And you&#39;re alone yet again.-&gt;talkingWithAndromedaBeforeTheNextCall]]</tw-passagedata><tw-passagedata pid="2" name="voicing" tags="startup" position="0,400" size="100,100">(set: $Hekate to (font: &quot;Indie Flower&quot;)+(background: #36368A))
+(set: $Thisbe to (font: &quot;Kavivanar&quot;)+(background: #368A36))
+(set: $Androm to (font: &quot;Courgette&quot;)+(background: #8D358D))
+(set: $Orpheu to (font: &quot;Marck Script&quot;)+(background: #79422F))</tw-passagedata><tw-passagedata pid="3" name="talkingWithAndromedaBeforeTheNextCall" tags="" position="100,100" size="100,100">
 #### 28 Days Remain
 
 The week after your strange encounter passes without note. Still, you can&#39;t take your mind off what happened that night. 
@@ -262,7 +265,64 @@ She only nods again.
 
 If you&#39;re lucky, she&#39;s totally forgotten about last week&#39;s incident. Based on her the cold silence and her constant fidgeting, you assume she hasn&#39;t.
 
-[[Still, she follows you to the bedroom. -&gt;bringYourGhostToBed]]</tw-passagedata><tw-passagedata pid="5" name="Untitled Passage 2" tags="" position="700,300" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="6" name="Untitled Passage 3" tags="" position="700,400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="7" name="Untitled Passage 4" tags="" position="700,500" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="bringYourGhostToBed" tags="" position="300,100" size="100,100">
+[[Still, she follows you to the bedroom. -&gt;bringYourGhostToBed]]</tw-passagedata><tw-passagedata pid="5" name="thisbeReturns" tags="" position="700,400" size="100,100">
+####12 days remain
+
+
+
+Closing time, and in the most exhausting way. 
+
+As you’ve bled so many regulars, you’re bound to have days like this. Nothing but Caulfield types from start to finish. They say that tragedy is supposed to breed philosophers... but not like this. 
+
+Laying on bed, with your mental faculties spent beyond any of your physical ones, your mind wanders. You think about Aether... wherever they might be. You think about Andromeda... and the way you last spoke. 
+
+You think about Thisbe...
+
+You think about holding her... stroking her hair as she sobs beneath your touch... cradling her frail body and dotting it with kisses... about breathing the air that flows right through her skin. 
+
+As much as any person, living or dead, can leave a carnal vacuum in one’s life... Thisbe... she...
+
+In the distance, you smell a faint drizzle cresting the foot of this mountain. Your hairs stand on end.
+
+You turn towards the door... and...
+
+A slender hand reaches through it... and it’s followed by...
+
+$Hekate[“Oh...&quot;]
+
+$Hekate[&quot;You came...”]
+
+Thisbe comes into full view, dressed in her usual, unchanging outfit. 
+
+$Thisbe[“Miss Hekate...”]
+
+[She steps towards you.]&lt;a|(click:?a)[== Her legs shake as she crosses the room. 
+
+$Hekate[“H-hold on... uhm... did you have a meeting scheduled...?”]
+
+When she reaches the bedside, Thisbe stops, shifting her weight between her feet. 
+
+$Thisbe[“I.... I ran out...”]
+
+Your blinks coax her to continue. 
+
+$Thisbe[“I ran out of money...”]
+
+$Thisbe[“And it didn’t feel right... coming in here without giving anything... but...”]
+
+She sits on the bedside, eliciting no movement from the springs below. 
+
+$Thisbe[“I... I just needed to see you again...”]
+
+$Thisbe[&quot;Is that... okay...?&quot;]
+
+And...
+
+
+
+[[You nod. -&gt;thisbesYearning]]</tw-passagedata><tw-passagedata pid="6" name="thisbesYearning" tags="" position="800,400" size="100,100">Friday, 11 PM
+
+</tw-passagedata><tw-passagedata pid="7" name="Untitled Passage 4" tags="" position="900,400" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="8" name="bringYourGhostToBed" tags="" position="300,100" size="100,100">
 Thisbe calms some once you lead her inside.
 
 The two of you sit on the bedside together
@@ -618,7 +678,90 @@ $Thisbe[&quot;I was killed.&quot;]
 
 
 
-[[...-&gt;hekatesReverie]]</tw-passagedata><tw-passagedata pid="11" name="hekatesReverie" tags="" position="600,300" size="100,100">THIS IS THE CURRENT END OKIOKI</tw-passagedata></tw-storydata>
+[[...-&gt;hekatesReverie]]</tw-passagedata><tw-passagedata pid="11" name="hekatesReverie" tags="" position="600,300" size="100,100">
+####14 days remain. 
+
+
+
+It’s been a week since you’ve seen her. 
+
+With no warning or reason, her weekly appointment was cancelled. Now, you’re left alone during her time slot. 
+
+Not a problem, of course. Thisbe is just one in a long chain of regulars. Who’s to say she’ll even stop by again, before...
+
+You grind your teeth. 
+
+With little else to do, you’ve taken to cleaning your workspace. Everything is kept neat and tidy within the client’s sight, but your tools quickly make their own chaotic organization. 
+
+Setting aside stacks of papers, whips, and plugs, you think of...
+
+You shake your head. 
+
+In the precious time you’ve got, you made a dedication. You need to stay focused on your work. With that in mind, you start again. 
+
+You pick up an intricate set of 3-part combination nipple clamps. Idly, you wish that the parts were proper so you could use them on...
+
+You bite your lip and toss them aside. 
+
+Clearly, this is only happening because you’ve dedicated so much of yourself to your work.  The past months have been strenuous, and you’ve been struggling to keep up your pace despite the circumstances. 
+
+Clearly, you’re just emotionally fraught, and you’ve started clinging to your regulars out of fear that they’ll skip town.
+
+Resolved, you reach down, and you grab...
+
+A bundle of green silk rope...
+
+...
+
+
+And... and you just miss her…
+Wednesday, 9 PM. 14 days remain. 
+
+It’s been a week since you’ve seen her. 
+
+With no warning or reason, her weekly appointment was cancelled. Now, you’re left alone during her time slot. 
+
+Not a problem, of course. Thisbe is just one in a long chain of regulars. Who’s to say she’ll even stop by again, before...
+
+You grind your teeth. 
+
+With little else to do, you’ve taken to cleaning your workspace. Everything is kept neat and tidy within the client’s sight, but your tools quickly make their own chaotic organization. 
+
+Setting aside stacks of papers, whips, and plugs, you think of...
+
+You shake your head. 
+
+In the precious time you’ve got, you made a dedication. You need to stay focused on your work. With that in mind, you start again. 
+
+You pick up an intricate set of 3-part combination nipple clamps. Idly, you wish that the parts were proper so you could use them on...
+
+You bite your lip and toss them aside. 
+
+Clearly, this is only happening because you’ve dedicated so much of yourself to your work.  The past months have been strenuous, and you’ve been struggling to keep up your pace despite the circumstances. 
+
+Clearly, you’re just emotionally fraught, and you’ve started clinging to your regulars out of fear that they’ll skip town.
+
+Resolved, you reach down, and you grab...
+
+A bundle of green silk rope...
+
+...
+
+
+[[And... and you just miss her…-&gt;thisbeReturns]]
+</tw-passagedata><tw-passagedata pid="12" name="ColorBlindVoicing" tags="" position="200,400" size="100,100">This is text
+
+$Hekate[&quot;//This// is the voice of &#39;&#39;Hekate&#39;&#39;, a lesbian sex worker on the New Pompeii commune.&quot;]
+$Thisbe[&quot;//This// is the voice of &#39;&#39;Thisbe&#39;&#39;, a ghost who was murdered 1500 years ago in the woods that are now New Pompeii&quot;]
+$Androm[&quot;This is the voice of &#39;&#39;Andromeda&#39;&#39;, a client of Hekate&#39;s, who works to maintain a weather satellite controlled from a station near New Pompeii&quot;]
+$Orpheu[&quot;//This// is the voice of &#39;&#39;Orpheus&#39;&#39;, Hekate&#39;s controlling ex who will stop at nothing to bring her back&quot;]
+
+This is text
+
+(font: &quot;Indie Flower&quot;)+$Hekate[&quot;//This// is the voice of &#39;&#39;Hekate&#39;&#39;, a lesbian sex worker on the New Pompeii commune.&quot;]
+(font: &quot;Kavivanar&quot;)+$Thisbe[&quot;//This// is the voice of &#39;&#39;Thisbe&#39;&#39;, a ghost who was murdered 1500 years ago in the woods that are now New Pompeii&quot;]
+(font: &quot;Courgette&quot;)+$Androm[&quot;This is the voice of &#39;&#39;Andromeda&#39;&#39;, a client of Hekate&#39;s, who works to maintain a weather satellite controlled from a station near New Pompeii&quot;]
+(font: &quot;Marck Script&quot;)+$Orpheu[&quot;//This// is the voice of &#39;&#39;Orpheus&#39;&#39;, Hekate&#39;s controlling ex who will stop at nothing to bring her back&quot;]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
